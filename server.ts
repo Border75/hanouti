@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 
 // Persistent store setup
-const DATA_DIR = path.join(__dirname, 'data');
+const DATA_DIR = process.env.VERCEL ? path.join('/tmp', 'data') : path.join(__dirname, 'data');
 const STORE_FILE = path.join(DATA_DIR, 'store.json');
 
 interface StoreData {
@@ -535,6 +535,10 @@ async function startServer() {
   });
 }
 
-startServer().catch(err => {
-  console.error('Failed to start HANOUT server:', err);
-});
+if (!process.env.VERCEL) {
+  startServer().catch(err => {
+    console.error('Failed to start HANOUT server:', err);
+  });
+}
+
+export default app;
