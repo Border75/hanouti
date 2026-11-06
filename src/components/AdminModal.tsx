@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { 
   X, Shield, LogOut, Plus, Edit2, Trash2, CheckCircle2, TrendingUp, 
   ShoppingBag, DollarSign, Package, AlertCircle, Eye, EyeOff, Save, RefreshCw, 
-  ExternalLink, Copy, Check, Download, Mail, Filter, Search, SlidersHorizontal, Settings, FileText, Layers
+  ExternalLink, Copy, Check, Download, Mail, Filter, Search, SlidersHorizontal, Settings, FileText, Layers, Lock
 } from 'lucide-react';
 import { Product, Order, AdminStats, DurationOption, ProductCategory } from '../types.ts';
 
@@ -23,9 +23,10 @@ export const AdminModal: React.FC<AdminModalProps> = ({
   onLogout,
   onProductsUpdated
 }) => {
-  // Login Form State
-  const [email, setEmail] = useState('bader153@gmail.com');
-  const [password, setPassword] = useState('Bader1965@');
+  // Login Form State (discreet and empty by default)
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [loginError, setLoginError] = useState<string | null>(null);
   const [isLoggingIn, setIsLoggingIn] = useState(false);
 
@@ -392,23 +393,38 @@ export const AdminModal: React.FC<AdminModalProps> = ({
                 <div>
                   <label className="block text-xs text-slate-400 mb-1 font-semibold">Identifiant Administrateur</label>
                   <input
-                    type="text"
+                    type="email"
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    className="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-white/10 text-xs text-white focus:outline-none focus:border-cyan-400"
+                    placeholder="Adresse e-mail"
+                    autoComplete="username"
+                    className="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-white/10 text-xs text-white placeholder:text-slate-600 focus:outline-none focus:border-cyan-400"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs text-slate-400 mb-1 font-semibold">Mot de passe secret</label>
-                  <input
-                    type="password"
-                    required
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    className="w-full px-4 py-2.5 rounded-xl bg-slate-900 border border-white/10 text-xs text-white focus:outline-none focus:border-cyan-400"
-                  />
+                  <label className="block text-xs text-slate-400 mb-1 font-semibold">Mot de passe</label>
+                  <div className="relative">
+                    <input
+                      type={showPassword ? 'text' : 'password'}
+                      required
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      placeholder="••••••••••••"
+                      autoComplete="current-password"
+                      className="w-full px-4 py-2.5 pr-10 rounded-xl bg-slate-900 border border-white/10 text-xs text-white placeholder:text-slate-600 focus:outline-none focus:border-cyan-400"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => setShowPassword(!showPassword)}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-300 transition-colors"
+                      tabIndex={-1}
+                      title={showPassword ? 'Masquer le mot de passe' : 'Afficher le mot de passe'}
+                    >
+                      {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                    </button>
+                  </div>
                 </div>
 
                 {loginError && (
@@ -426,9 +442,9 @@ export const AdminModal: React.FC<AdminModalProps> = ({
                   {isLoggingIn ? 'Authentification...' : 'Ouvrir le panneau d’administration'}
                 </button>
 
-                <div className="p-4 rounded-xl bg-slate-900/60 border border-white/[0.06] text-xs text-slate-400 text-center">
-                  Identifiants administrateur :<br/>
-                  <span className="text-white font-mono font-semibold">bader153@gmail.com</span> / <span className="text-white font-mono font-semibold">Bader1965@</span>
+                <div className="p-3.5 rounded-xl bg-slate-900/40 border border-white/[0.05] text-[11px] text-slate-500 text-center flex items-center justify-center gap-2">
+                  <Lock className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                  <span>Accès confidentiel réservé aux administrateurs autorisés</span>
                 </div>
               </form>
             </div>
