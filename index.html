@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HANOUT – Le digital, autrement | Abonnements TV & Produits Numériques</title>
+    <meta name="description" content="Découvrez une nouvelle expérience digitale avec HANOUT : abonnements TV autorisés, services numériques premium et livraison instantanée 24/7." />
+    <meta property="og:title" content="HANOUT – Le digital, autrement" />
+    <meta property="og:description" content="Boutique premium d'abonnements TV autorisés et de services numériques sécurisés." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Ensure window.fetch has both getter and setter for browser extensions and test runners
+      try {
+        let _fetch = window.fetch ? window.fetch.bind(window) : undefined;
+        Object.defineProperty(window, 'fetch', {
+          get() {
+            return _fetch;
+          },
+          set(newFetch) {
+            _fetch = newFetch;
+          },
+          configurable: true,
+          enumerable: true,
+        });
+      } catch (e) {
+        // Safe fallback
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "OnlineStore",
+      "name": "HANOUT",
+      "slogan": "Le digital, autrement.",
+      "description": "Boutique en ligne spécialisée dans la vente de produits numériques et d'abonnements TV autorisés à la revente.",
+      "currenciesAccepted": "EUR",
+      "paymentAccepted": "Credit Card, Stripe",
+      "priceRange": "€€"
+    }
+    </script>
+  </head>
+  <body class="bg-[#070709] text-zinc-100 antialiased selection:bg-white selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

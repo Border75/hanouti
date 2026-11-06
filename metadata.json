@@ -1,0 +1,6 @@
+{
+  "name": "HANOUT - Le digital, autrement",
+  "description": "Boutique en ligne haut de gamme pour produits numériques, services TV autorisés et abonnements premium.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

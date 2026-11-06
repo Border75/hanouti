@@ -1,0 +1,431 @@
+{
+  "products": [
+    {
+      "id": "hnt-tv-ultra-4k",
+      "name": "HANOUT TV Ultra 4K",
+      "slug": "hanout-tv-ultra-4k",
+      "tagline": "L’expérience télévisuelle ultime en ultra haute définition.",
+      "description": "Accédez à plus de 18 000 chaînes directes en qualité 4K UHD et FHD avec un taux de disponibilité garanti de 99.9%. Profitez d’une bibliothèque monumentale de plus de 80 000 films et séries récents mis à jour quotidiennement avec sous-titres multilingues et guide TV électronique (EPG) interactif.",
+      "category": "tv-subscriptions",
+      "basePrice": 89.99,
+      "pricing": {
+        "12": 89.99,
+        "24": 149.99
+      },
+      "availableDurations": [
+        12,
+        24
+      ],
+      "featured": true,
+      "isBestSeller": true,
+      "active": true,
+      "imageUrl": "/src/assets/images/product_hanout_tv_stream_1793971861184.jpg",
+      "features": [
+        "18 000+ Chaînes 4K UHD, FHD & HEVC",
+        "80 000+ Films & Séries VOD mis à jour",
+        "Replay 7 jours (Catch-Up TV)",
+        "Guide TV électronique (EPG) complet",
+        "Compatible Smart TV, Apple TV, Firestick, Android, PC/Mac, iOS",
+        "Anti-Gel dernière génération (technologie H.265 / AV1)",
+        "Serveurs CDN ultra rapides avec bande passante dédiée 10 Gbps"
+      ],
+      "specifications": [
+        {
+          "label": "Résolution maximale",
+          "value": "4K UHD (3840x2160) @ 60fps"
+        },
+        {
+          "label": "Débit recommandé",
+          "value": "15 Mb/s (FHD) / 30 Mb/s (4K)"
+        },
+        {
+          "label": "Format de diffusion",
+          "value": "Xtream Codes API / M3U Plus"
+        },
+        {
+          "label": "Nombre d’écrans",
+          "value": "1 écran inclus (extensible)"
+        },
+        {
+          "label": "Livraison",
+          "value": "Instantanée par e-mail en 60 secondes"
+        }
+      ],
+      "stripePaymentLink": "https://buy.stripe.com/test_hanout_tv_ultra",
+      "stockStatus": "instant_delivery",
+      "deliveryType": "credentials",
+      "rating": 4.9,
+      "reviewsCount": 342,
+      "deliveryGuide": "Vos identifiants Xtream Codes (Nom d’utilisateur, mot de passe et URL du serveur) ainsi que votre lien M3U sécurisé vous sont envoyés par e-mail immédiatement après confirmation du paiement.",
+      "createdAt": "2026-01-15T10:00:00.000Z",
+      "updatedAt": "2026-03-01T14:30:00.000Z"
+    },
+    {
+      "id": "hnt-tv-multi-pro",
+      "name": "HANOUT TV Multi-Écrans Pro",
+      "slug": "hanout-tv-multi-pro",
+      "tagline": "Pour toute la famille : diffusez sur 2 à 4 appareils simultanément.",
+      "description": "Le pack suprême conçu pour les foyers exigeants. Partagez votre abonnement sur votre Smart TV du salon, la tablette des enfants et le smartphone en déplacement, sans jamais subir d’interruption de flux ni de conflit d’adresse IP.",
+      "category": "tv-subscriptions",
+      "basePrice": 129.99,
+      "pricing": {
+        "12": 129.99,
+        "24": 219.99
+      },
+      "availableDurations": [
+        12,
+        24
+      ],
+      "featured": true,
+      "isBestSeller": false,
+      "active": true,
+      "imageUrl": "/src/assets/images/hero_hanout_lifestyle_1793971859738.jpg",
+      "features": [
+        "2 connexions simultanées incluses (option 4 écrans disponible)",
+        "Tous les bouquets sportifs mondiaux en 60 FPS sans coupure",
+        "Accès prioritaire aux clusters de serveurs CDN Europe & Amérique",
+        "Assistance VIP prioritaire 24/7 dédiée par WhatsApp & Ticket",
+        "Installation à distance assistée sur demande"
+      ],
+      "specifications": [
+        {
+          "label": "Écrans simultanés",
+          "value": "2 écrans simultanés inclus"
+        },
+        {
+          "label": "Support audio",
+          "value": "Dolby Digital Plus 5.1"
+        },
+        {
+          "label": "Support appareils",
+          "value": "Android TV, Tizen, webOS, tvOS, Windows"
+        },
+        {
+          "label": "Garantie de service",
+          "value": "Remplacement immédiat sous 24h"
+        }
+      ],
+      "stripePaymentLink": "https://buy.stripe.com/test_hanout_multi_pro",
+      "stockStatus": "instant_delivery",
+      "deliveryType": "credentials",
+      "rating": 4.95,
+      "reviewsCount": 189,
+      "deliveryGuide": "Vous recevez un jeu double d’identifiants synchronisés avec portail de gestion pour activer vos deux équipements indépendamment.",
+      "createdAt": "2026-02-01T12:00:00.000Z",
+      "updatedAt": "2026-03-02T16:00:00.000Z"
+    },
+    {
+      "id": "hnt-aegis-vpn",
+      "name": "Aegis VPN Ultra Stealth",
+      "slug": "aegis-vpn-ultra-stealth",
+      "tagline": "Confidentialité absolue, bande passante 10 Gbps sans limite.",
+      "description": "Protégez votre vie numérique et débloquez n’importe quel contenu international sans perte de vitesse. Aegis VPN utilise le chiffrement post-quantique WireGuard® et des serveurs RAM volatils sans aucun journal d’activité.",
+      "category": "digital-services",
+      "basePrice": 59.99,
+      "pricing": {
+        "12": 59.99,
+        "24": 89.99
+      },
+      "availableDurations": [
+        12,
+        24
+      ],
+      "featured": true,
+      "isBestSeller": true,
+      "active": true,
+      "imageUrl": "/src/assets/images/product_vpn_cyber_security_1793971861656.jpg",
+      "features": [
+        "Politique certifiée No-Logs (zéro conservation de données)",
+        "Serveurs 100% RAM sans disque dur dans 92 pays",
+        "Optimisé pour le streaming 4K et les téléchargements haut débit",
+        "Protection contre les fuites DNS, IPv6 et WebRTC",
+        "Jusqu’à 10 appareils connectés simultanément"
+      ],
+      "specifications": [
+        {
+          "label": "Protocoles",
+          "value": "WireGuard, OpenVPN UDP/TCP, IKEv2"
+        },
+        {
+          "label": "Chiffrement",
+          "value": "AES-256-GCM / ChaCha20-Poly1305"
+        },
+        {
+          "label": "Serveurs",
+          "value": "Plus de 4 800 serveurs ultra-rapides"
+        },
+        {
+          "label": "Kill Switch",
+          "value": "Automatique au niveau du noyau"
+        }
+      ],
+      "stripePaymentLink": "https://buy.stripe.com/test_aegis_vpn",
+      "stockStatus": "instant_delivery",
+      "deliveryType": "license_key",
+      "rating": 4.88,
+      "reviewsCount": 276,
+      "deliveryGuide": "Votre clé de licence unique et le lien de téléchargement direct des applications officielles Windows, Mac, iOS et Android sont envoyés immédiatement.",
+      "createdAt": "2026-01-20T08:00:00.000Z",
+      "updatedAt": "2026-03-04T10:15:00.000Z"
+    },
+    {
+      "id": "hnt-nebos-cloud",
+      "name": "Nebos Cloud Pro 2 To",
+      "slug": "nebos-cloud-pro-2to",
+      "tagline": "Vos données personnelles en sécurité dans un coffre-fort cloud suisse.",
+      "description": "2 000 Go d’espace sécurisé pour sauvegarder vos photos en pleine résolution, vidéos 4K et documents confidentiels. Chiffrement de bout en bout côté client : vous seul possédez la clé de déchiffrement.",
+      "category": "digital-services",
+      "basePrice": 79.99,
+      "pricing": {
+        "12": 79.99,
+        "24": 129.99
+      },
+      "availableDurations": [
+        12,
+        24
+      ],
+      "featured": false,
+      "isBestSeller": false,
+      "active": true,
+      "imageUrl": "/src/assets/images/product_cloud_storage_pro_1793971861735.jpg",
+      "features": [
+        "2 000 Go d’espace de stockage haute vitesse",
+        "Chiffrement zéro-connaissance (Zero-Knowledge Encryption)",
+        "Historique des versions et corbeille restaurable pendant 365 jours",
+        "Partage de fichiers avec mots de passe et dates d’expiration",
+        "Synchronisation intelligente à la demande pour libérer de l’espace disque"
+      ],
+      "specifications": [
+        {
+          "label": "Localisation des serveurs",
+          "value": "Zurich (Suisse) & Francfort"
+        },
+        {
+          "label": "Conformité",
+          "value": "RGPD & FADP Suisse"
+        },
+        {
+          "label": "Taille de fichier max",
+          "value": "Illimitée"
+        },
+        {
+          "label": "Multi-plateforme",
+          "value": "Web, Windows, macOS, Linux, iOS, Android"
+        }
+      ],
+      "stripePaymentLink": "https://buy.stripe.com/test_nebos_cloud",
+      "stockStatus": "instant_delivery",
+      "deliveryType": "credentials",
+      "rating": 4.85,
+      "reviewsCount": 142,
+      "deliveryGuide": "Votre lien d’activation de compte pré-provisionné avec 2 To de quota est envoyé avec votre code de déverrouillage maître.",
+      "createdAt": "2026-02-10T09:30:00.000Z",
+      "updatedAt": "2026-03-04T11:00:00.000Z"
+    },
+    {
+      "id": "hnt-cine-pass-4k",
+      "name": "Pass Divertissement Studio 4K",
+      "slug": "pass-divertissement-studio-4k",
+      "tagline": "Le meilleur du cinéma et des séries originales en Dolby Vision.",
+      "description": "Accès premium aux plus grands studios de production mondiaux. Visionnez les dernières sorties cinéma en exclusivité, avec audio spatialisé Dolby Atmos et téléchargement hors ligne sur vos appareils mobiles.",
+      "category": "premium-subscriptions",
+      "basePrice": 84.99,
+      "pricing": {
+        "12": 84.99,
+        "24": 139.99
+      },
+      "availableDurations": [
+        12,
+        24
+      ],
+      "featured": true,
+      "isBestSeller": true,
+      "active": true,
+      "imageUrl": "/src/assets/images/hero_hanout_lifestyle_1793971859738.jpg",
+      "features": [
+        "Lecture 4K Ultra HD & Dolby Vision",
+        "Son spatial immersif Dolby Atmos",
+        "4 profils personnalisés avec contrôle parental",
+        "Téléchargement sur 6 appareils pour visionnage sans connexion"
+      ],
+      "specifications": [
+        {
+          "label": "Qualité vidéo",
+          "value": "Jusqu’à 2160p 4K HDR"
+        },
+        {
+          "label": "Profils",
+          "value": "4 profils dédiés"
+        },
+        {
+          "label": "Publicités",
+          "value": "Zéro coupure publicitaire"
+        }
+      ],
+      "stripePaymentLink": "https://buy.stripe.com/test_cine_pass",
+      "stockStatus": "instant_delivery",
+      "deliveryType": "credentials",
+      "rating": 4.92,
+      "reviewsCount": 310,
+      "deliveryGuide": "Votre profil privé garanti avec code PIN individuel vous est transmis avec les instructions de connexion directe.",
+      "createdAt": "2026-01-25T14:00:00.000Z",
+      "updatedAt": "2026-03-03T18:00:00.000Z"
+    },
+    {
+      "id": "hnt-windows-pro-2026",
+      "name": "Licence Pro Workstation 2026",
+      "slug": "licence-pro-workstation-2026",
+      "tagline": "Clé d’activation certifiée originale pour 1 PC.",
+      "description": "Activez votre système d’exploitation avec une clé officielle OEM/Retail reconnue directement par les serveurs d’activation certifiés. Bénéficiez des fonctionnalités avancées de sécurité BitLocker, de virtualisation Hyper-V et du bureau à distance avec support technique 12 ou 24 mois.",
+      "category": "digital-products",
+      "basePrice": 39.99,
+      "pricing": {
+        "12": 39.99,
+        "24": 59.99
+      },
+      "availableDurations": [
+        12,
+        24
+      ],
+      "featured": false,
+      "isBestSeller": false,
+      "active": true,
+      "imageUrl": "/src/assets/images/product_vpn_cyber_security_1793971861656.jpg",
+      "features": [
+        "Clé de produit officielle 25 caractères (XXXXX-XXXXX-XXXXX-XXXXX-XXXXX)",
+        "Activation officielle garantie avec support technique inclus",
+        "Chiffrement de lecteur BitLocker complet",
+        "Support multilingue mondial (Français, Anglais, Espagnol, Arabe...)",
+        "Mises à jour système et de sécurité officielles incluses"
+      ],
+      "specifications": [
+        {
+          "label": "Support & Mises à jour",
+          "value": "12 ou 24 mois d’assistance garantie"
+        },
+        {
+          "label": "Type de licence",
+          "value": "Retail / OEM Officielle"
+        },
+        {
+          "label": "Architecture",
+          "value": "64-bit / ARM64"
+        },
+        {
+          "label": "Délai d’envoi",
+          "value": "Immédiat par e-mail avec certificat"
+        }
+      ],
+      "stripePaymentLink": "https://buy.stripe.com/test_licence_os_pro",
+      "stockStatus": "instant_delivery",
+      "deliveryType": "license_key",
+      "rating": 4.94,
+      "reviewsCount": 420,
+      "deliveryGuide": "Votre clé alphanumérique officielle de 25 caractères est fournie avec le lien de téléchargement de l’outil officiel d’installation.",
+      "createdAt": "2026-01-10T11:00:00.000Z",
+      "updatedAt": "2026-03-01T09:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "HNT-2026-8941",
+      "customerName": "Marc Lefebvre",
+      "customerEmail": "marc.lefebvre@example.com",
+      "customerPhone": "+33 6 12 34 56 78",
+      "totalAmount": 89.99,
+      "currency": "EUR",
+      "paymentProvider": "stripe",
+      "paymentStatus": "paid",
+      "deliveryStatus": "delivered",
+      "paymentIntentId": "pi_3MtXk9Lkd783hshd89234891",
+      "stripeSessionId": "cs_test_a1b2c3d4e5f6",
+      "items": [
+        {
+          "productId": "hnt-tv-ultra-4k",
+          "productName": "HANOUT TV Ultra 4K",
+          "duration": 12,
+          "price": 89.99,
+          "category": "tv-subscriptions",
+          "imageUrl": "/src/assets/images/product_hanout_tv_stream_1793971861184.jpg",
+          "deliveryDetails": {
+            "username": "hanout_usr_8941",
+            "password": "Pass_Z1Q7P5",
+            "serverUrl": "http://stream.hanout.digital:8080",
+            "m3uLink": "http://stream.hanout.digital:8080/get.php?username=hanout_usr_8941&password=pass&type=m3u_plus&output=ts",
+            "activationInstructions": "Entrez les identifiants ci-dessus dans votre application IPTV (TiviMate, IPTV Smarters, etc.)"
+          }
+        }
+      ],
+      "createdAt": "2026-03-05T09:14:22.000Z",
+      "updatedAt": "2026-03-05T09:15:00.000Z",
+      "deliveryEmailSent": true
+    },
+    {
+      "id": "HNT-2026-8942",
+      "customerName": "Sophie Martin",
+      "customerEmail": "sophie.martin@example.fr",
+      "customerPhone": "+33 7 98 76 54 32",
+      "totalAmount": 89.99,
+      "currency": "EUR",
+      "paymentProvider": "stripe",
+      "paymentStatus": "paid",
+      "deliveryStatus": "delivered",
+      "paymentIntentId": "pi_3MtYk9Lkd783hshd89234892",
+      "stripeSessionId": "cs_test_b2c3d4e5f6g7",
+      "items": [
+        {
+          "productId": "hnt-aegis-vpn",
+          "productName": "Aegis VPN Ultra Stealth",
+          "duration": 24,
+          "price": 89.99,
+          "category": "digital-services",
+          "imageUrl": "/src/assets/images/product_vpn_cyber_security_1793971861656.jpg",
+          "deliveryDetails": {
+            "licenseKey": "AEGIS-2026-V8N9-7K4M-X92Q",
+            "activationInstructions": "Téléchargez Aegis VPN et collez la clé ci-dessus dans l’onglet Activation."
+          }
+        }
+      ],
+      "createdAt": "2026-03-05T14:40:10.000Z",
+      "updatedAt": "2026-03-05T14:41:00.000Z",
+      "deliveryEmailSent": true
+    },
+    {
+      "id": "HNT-2026-8943",
+      "customerName": "Karim B.",
+      "customerEmail": "karim.b@example.com",
+      "totalAmount": 149.99,
+      "currency": "EUR",
+      "paymentProvider": "stripe",
+      "paymentStatus": "paid",
+      "deliveryStatus": "delivered",
+      "paymentIntentId": "pi_3MtZk9Lkd783hshd89234893",
+      "items": [
+        {
+          "productId": "hnt-tv-ultra-4k",
+          "productName": "HANOUT TV Ultra 4K",
+          "duration": 24,
+          "price": 149.99,
+          "category": "tv-subscriptions",
+          "imageUrl": "/src/assets/images/product_hanout_tv_stream_1793971861184.jpg",
+          "deliveryDetails": {
+            "username": "hanout_usr_8943",
+            "password": "Pass_31IKDN",
+            "serverUrl": "http://stream.hanout.digital:8080",
+            "activationInstructions": "Identifiants valides pour 24 mois."
+          }
+        }
+      ],
+      "createdAt": "2026-03-06T04:12:00.000Z",
+      "updatedAt": "2026-03-06T04:12:30.000Z",
+      "deliveryEmailSent": true
+    }
+  ],
+  "adminTokens": [
+    {
+      "token": "hnt_adm_ee637ffdd5150421abb0d3f0f59d9c8abaf33917146396c60c48bb59299757ba",
+      "createdAt": "2026-11-06T14:11:47.418Z",
+      "email": "bader153@gmail.com"
+    }
+  ]
+}
